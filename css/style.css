@@ -1,0 +1,99 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto";
+  color: rgb(46, 47, 58);
+}
+
+body {
+  background-color: #fcfbfc;
+}
+
+header {
+  background-image: url(../img/fodbold_til_hoejre_16_9.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 215px;
+  background-position-y: 59%;
+  display: flex;
+  align-items: center;
+}
+
+.overskrift {
+  width: 65%;
+}
+
+.overskrift h1 {
+  font-family: "Bungee Outline";
+  font-size: 2.6rem;
+  color: #1400ff;
+  padding-left: 15%;
+}
+
+header .overskrift h1 {
+  background-size: 100%;
+  background: linear-gradient(180deg, rgba(2, 0, 36, 1) 18%, rgba(134, 255, 251, 1) 52%, rgba(255, 0, 243, 1) 85%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.grid_1-1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+article h1 {
+  font-size: 3.1rem;
+  margin: 44px 0 3px 0;
+  padding: 0% 3%;
+  text-align: start;
+}
+
+article h2 {
+  font-size: 2rem;
+  padding: 0% 3%;
+  margin: 11% 0% 2%0%;
+}
+
+article p {
+  font-size: 1.1rem;
+  padding: 0% 3%;
+  text-align: start;
+}
+
+.hvem_er_albert img {
+  margin: 2% 0%;
+}
+
+iframe {
+  max-width: 100%;
+  height: auto;
+  aspect-ratio: 16/9;
+  margin-bottom: 2%;
+}
+
+footer {
+  color: gray;
+}
+
+.icons {
+  height: auto;
+  display: flex;
+  justify-content: space-around;
+  justify-items: center;
+  margin-top: 20px;
+}
+
+.icons * {
+  width: 50px;
+}
+
+.copyright {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+@media (max-width: 800px) {
+}
