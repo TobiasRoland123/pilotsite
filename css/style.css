@@ -35,7 +35,8 @@ header .overskrift h1 {
   background-size: 100%;
   background: linear-gradient(180deg, rgba(2, 0, 36, 1) 18%, rgba(134, 255, 251, 1) 52%, rgba(255, 0, 243, 1) 85%);
   background-clip: text;
-  -webkit-text-fill-color: transparent;
+  /* -webkit-text-fill-color: transparent; */
+  -moz-text-fill-color: transparent;
 }
 
 article h1 {
