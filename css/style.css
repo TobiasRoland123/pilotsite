@@ -38,11 +38,6 @@ header .overskrift h1 {
   -webkit-text-fill-color: transparent;
 }
 
-.grid_1-1 {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-}
-
 article h1 {
   font-size: 3.1rem;
   margin: 44px 0 3px 0;
@@ -95,5 +90,43 @@ footer {
   margin-top: 20px;
 }
 
-@media (max-width: 800px) {
+.grid_1-1 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+}
+
+.vid_grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+  gap: 20px;
+}
+
+.gal_section_grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+}
+
+@media (min-width: 560px) {
+  main {
+    margin: 0% 3%;
+  }
+
+  .galleri {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+  }
+  .pic4 {
+    grid-column: 1 / span 4;
+  }
+  .pic1 {
+    grid-column: 1 / span 2;
+  }
+  .pic2 {
+    grid-row: 1;
+    grid-column: 1 / span 4;
+  }
+  .pic3 {
+    grid-column: 3 / span 2;
+  }
 }
