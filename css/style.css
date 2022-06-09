@@ -109,7 +109,7 @@ footer {
 
 @media (min-width: 560px) {
   main {
-    margin: 0% 3%;
+    margin: 0% auto;
   }
 
   .galleri {
